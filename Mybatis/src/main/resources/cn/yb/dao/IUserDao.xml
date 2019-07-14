@@ -1,0 +1,8 @@
+<mapper namespace="cn.yb.dao.IUserDao">
+    <!--配置查询所有
+        id：接口中的方法名
+    -->
+    <select id="findAll" resultType="cn.yb.domain.User">
+        select * from user
+    </select>
+</mapper>
