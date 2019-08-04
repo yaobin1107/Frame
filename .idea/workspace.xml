@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e59c6480-3568-4f29-aa18-348f929ae369" name="Default Changelist" comment="mybatis">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/_11_mybatis_JNDI_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/_11_mybatis_JNDI_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/idea_mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis/target/mybatis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/_13_mybatis_cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/cn/yb13/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/SecondLevelCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/dictionaries/10598.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/14_mybatis_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/_14_mybatis_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/AnnotationCRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/MybatisAnnoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/_15_mybatis_annoOne2Many.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/AnnotationCRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/MybatisAnnoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/mybatis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/classes/cn/yb01/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/classes/cn/yb01/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/classes/cn/yb01/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_mybatis/target/test-classes/cn/yb01/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_annotation/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_annotation/target/classes/cn/yb02/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_annotation/target/classes/cn/yb02/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_annotation/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_mybatis_annotation/target/test-classes/cn/yb02/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/cn/yb03/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/cn/yb03/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/cn/yb03/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/cn/yb03/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_mybatis_dao/target/test-classes/cn/yb03/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/annotations/Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/cfg/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/cfg/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/defaults/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/sqlsession/proxy/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/utils/DataSourceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/utils/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/cn/yb04/mybatis/utils/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_mybatis_design/target/test-classes/cn/yb04/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/cn/yb05/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/cn/yb05/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/cn/yb05/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/cn/yb05/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05_mybatis_CRUD/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/cn/yb06/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/cn/yb06/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/cn/yb06/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/cn/yb06/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_mybatis_dao/target/test-classes/cn/yb06/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/cn/yb07/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/cn/yb07/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/cn/yb07/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/cn/yb07/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/test-classes/cn/yb07/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/cn/yb08/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/cn/yb08/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/cn/yb08/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/cn/yb08/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/test-classes/cn/yb08/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/dao/IAccountDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/domain/AccountUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/cn/yb09/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/test-classes/cn/yb09/test/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_09_mybatis_one2many/target/test-classes/cn/yb09/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/META-INF/_10_mybatis_many2many.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/cn/yb10/dao/IRoleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/cn/yb10/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/cn/yb10/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/cn/yb10/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/test-classes/cn/yb10/test/RoleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_mybatis_many2many/target/test-classes/cn/yb10/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/_11_mybatis_JNDI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mybatis_JNDI/_11_mybatis_JNDI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/cn/yb11/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/cn/yb11/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/cn/yb11/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/cn/yb11/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_mybatis_JNDI/target/test-classes/MybatisTest.class" beforeDir="false" />
+    </list>
+    <list id="8e7e6aa1-f260-4b54-8079-2af894839f75" name="Apply: mybatis" comment="" />
+    <list id="e70927e4-18d2-4b5d-ae87-1dcc6ac197f2" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 29b3a096">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <list id="a6ba29ca-8750-4316-829f-76d3086f04d0" name="Revert &quot;mybatis&quot;" comment="Revert &quot;mybatis&quot;&#10;&#10;This reverts commit e92d08dc">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <list id="3ac888b6-df14-4440-893b-4b78494e3f64" name="Revert: mybatis" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../idea_frame/01_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/_01_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/_02_mybatis_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/_03_mybatis_dao/target/" />
+    <ignored path="$PROJECT_DIR$/_04_mybatis_design/target/" />
+    <ignored path="$PROJECT_DIR$/_05_mybatis_CRUD/target/" />
+    <ignored path="$PROJECT_DIR$/_06_mybatis_DAO/target/" />
+    <ignored path="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/target/" />
+    <ignored path="$PROJECT_DIR$/_08_mybatis_dynamicSQL/target/" />
+    <ignored path="$PROJECT_DIR$/_09_mybatis_one2many/target/" />
+    <ignored path="$PROJECT_DIR$/_10_mybatis_many2many/target/" />
+    <ignored path="$PROJECT_DIR$/_11_mybatis_JNDI/target/" />
+    <ignored path="$PROJECT_DIR$/_12_mybatis_lazyLoad/target/" />
+    <ignored path="$PROJECT_DIR$/_13_mybatis_cache/target/" />
+    <ignored path="$PROJECT_DIR$/_14_mybatis_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/_15_mybatis_annoOne2Many/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_02_mybatis_annotation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/dao/IAccountDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/AccountUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/resources/cn/yb09/dao/IUserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/resources/cn/yb09/dao/IAccountDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Mybatis Config" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>itheima</find>
+      <find>cn.yb09.</find>
+      <find>cn.yb12.</find>
+      <find>com.itheima.</find>
+      <find>cn.yb14.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cn.yb07.</replace>
+      <replace>cn.yb08.</replace>
+      <replace>cn.yb09.</replace>
+      <replace>cn.yb10.</replace>
+      <replace>cn.yb11.</replace>
+      <replace>cn.yb12.</replace>
+      <replace>cn.yb13.</replace>
+      <replace>cn.yb15.</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/java/domain/User.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/java/cn/yb10/dao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/java/cn/yb10/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/java/cn/yb10/domain/Role.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/main/java/cn/yb10/domain/User.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/test/java/cn/yb10/test/RoleTest.java" />
+        <option value="$PROJECT_DIR$/_10_mybatis_many2many/src/test/java/cn/yb10/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/resources/cn/yb11/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/java/cn/yb11/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/java/cn/yb11/domain/QueryVo.java" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/java/cn/yb11/domain/User.java" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/pom.xml" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/test/java/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_11_mybatis_JNDI/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/pom.xml" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/java/cn/yb12/domain/Account.java" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/java/cn/yb12/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/test/java/cn/yb12/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/test/java/cn/yb12/test/AccountTest.java" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/cn.yb12.dao/IAccountDao.xml" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/cn.yb12.dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/java/cn/yb12/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/cn/yb12/dao/IAccountDao.xml" />
+        <option value="$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/cn/yb12/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/pom.xml" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/cn/yb13/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/SecondLevelCacheTest.java" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/domain/User.java" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/domain/User.java" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/MybatisAnnoTest.java" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/AnnotationCRUDTest.java" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/pom.xml" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/MybatisAnnoTest.java" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/User.java" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/Account.java" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/AnnotationCRUDTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="194" />
+    <option name="y" value="73" />
+    <option name="width" value="1479" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_02_mybatis_annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_02_mybatis_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_02_mybatis_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yb09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yb09" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yb09" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="idea_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idea_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_mybatis_one2many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/尚硅谷/尚硅谷Mybatis视频教程/课件&amp;代码/代码/代码/MyBatis_06_ssm" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_mybatis\_15_mybatis_annoOne2Many\src\main\java\cn\yb15\domain" />
+      <recent name="D:\idea_mybatis\_15_mybatis_annoOne2Many\src\test\java\cn\yb15\test" />
+      <recent name="D:\idea_mybatis\_15_mybatis_annoOne2Many\src\main\resources" />
+      <recent name="D:\idea_mybatis\_15_mybatis_annoOne2Many\src\main\java\cn\yb15" />
+      <recent name="D:\idea_mybatis\_14_mybatis_annotation\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea_mybatis\_12_mybatis_lazyLoad\src\main\resources\cn\yb12\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AnnotationCRUDTest.testFindByName (1)">
+    <configuration name="AnnotationCRUDTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_15_mybatis_annoOne2Many" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yb15.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yb15.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.yb15.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testFindByName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_15_mybatis_annoOne2Many" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yb15.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yb15.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.yb15.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_14_mybatis_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yb14.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yb14.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.yb14.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testFindOne (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_15_mybatis_annoOne2Many" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yb15.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yb15.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.yb15.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_14_mybatis_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yb14.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.yb14.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.yb14.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="_11_mybatis_JNDI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/jndi" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_38_idea_mybatis" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4956" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="_11_mybatis_JNDI:war" />
+          <artifact name="_11_mybatis_JNDI:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/jndi/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="_11_mybatis_JNDI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/jndi" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_idea_mybatis" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4956" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="_11_mybatis_JNDI:war" />
+          <artifact name="_11_mybatis_JNDI:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AnnotationCRUDTest.testSave" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindByName" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindAll" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindOne (1)" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindByName (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindByName (1)" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindAll" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindOne (1)" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testSave" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindByName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e59c6480-3568-4f29-aa18-348f929ae369" name="Default Changelist" comment="" />
+      <changelist id="3ac888b6-df14-4440-893b-4b78494e3f64" name="Revert: mybatis" comment="" />
+      <changelist id="8e7e6aa1-f260-4b54-8079-2af894839f75" name="Apply: mybatis" comment="" />
+      <created>1563167028948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563167028948</updated>
+      <workItem from="1563167030503" duration="42000" />
+      <workItem from="1563167076063" duration="110000" />
+      <workItem from="1563167188445" duration="123000" />
+      <workItem from="1563167312926" duration="15040000" />
+      <workItem from="1563185662000" duration="244000" />
+      <workItem from="1563186112021" duration="1589000" />
+      <workItem from="1563280663466" duration="202000" />
+      <workItem from="1563432621212" duration="1527000" />
+      <workItem from="1563500191823" duration="1102000" />
+      <workItem from="1563556769950" duration="1790000" />
+      <workItem from="1563613090120" duration="646000" />
+      <workItem from="1563625417510" duration="162000" />
+      <workItem from="1563938003479" duration="2284000" />
+      <workItem from="1563978515573" duration="676000" />
+      <workItem from="1564159404609" duration="288000" />
+      <workItem from="1564410454410" duration="239000" />
+      <workItem from="1564455589054" duration="1527000" />
+      <workItem from="1564471954084" duration="81000" />
+      <workItem from="1564490200359" duration="21000" />
+      <workItem from="1564754596955" duration="97000" />
+      <workItem from="1564822559252" duration="896000" />
+    </task>
+    <task id="LOCAL-00001" summary="mybatis">
+      <created>1563169637481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563169637481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybatis">
+      <created>1563170254118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563170254118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;mybatis&quot;&#10;&#10;This reverts commit 9b3e2959">
+      <created>1563170344114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563170344114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mybatis">
+      <created>1563280713192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563280713192</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mybatis">
+      <created>1563432665376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563432665377</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mybatis">
+      <created>1563500307272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563500307272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mybatis">
+      <created>1563613132932</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613132933</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mybatis">
+      <created>1563978541971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563978541971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="mybatis">
+      <created>1564754646778</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564754646779</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AnnotationCRUDTest_testFindOne - 2019.07.15 at 18h 10m 56s.xml">
+      <configuration name="AnnotationCRUDTest.testFindOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindTotal - 2019.07.15 at 18h 11m 36s.xml">
+      <configuration name="AnnotationCRUDTest.testFindTotal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindByName - 2019.07.15 at 18h 12m 01s.xml">
+      <configuration name="AnnotationCRUDTest.testFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testSave - 2019.07.15 at 18h 12m 35s.xml">
+      <configuration name="AnnotationCRUDTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testSave - 2019.07.15 at 18h 16m 43s.xml">
+      <configuration name="AnnotationCRUDTest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindAll - 2019.07.15 at 18h 29m 34s.xml">
+      <configuration name="AnnotationCRUDTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindAll - 2019.07.15 at 18h 33m 28s.xml">
+      <configuration name="AnnotationCRUDTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindOne_(1) - 2019.07.15 at 18h 36m 25s.xml">
+      <configuration name="AnnotationCRUDTest.testFindOne (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindAll - 2019.07.15 at 18h 37m 45s.xml">
+      <configuration name="AnnotationCRUDTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindByName_(1) - 2019.07.15 at 18h 38m 14s.xml">
+      <configuration name="AnnotationCRUDTest.testFindByName (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28686000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="0" width="1479" height="880" extended-state="0" />
+    <layout>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2114165" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286908" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286908" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4989429" weight="0.40389973" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286908" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49964765" weight="0.41225627" />
+      <window_info anchor="bottom" id="Problems" order="13" weight="0.32839838" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.3286908" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5010571" side_tool="true" weight="0.39275765" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.1663143" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980973" />
+      <window_info anchor="right" id="Jms Messenger" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20014094" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286908" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32729805" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286908" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4989429" visible="true" weight="0.33844012" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286908" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49964765" weight="0.41225627" />
+      <window_info anchor="bottom" id="Problems" order="13" weight="0.3286908" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.3286908" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5010571" side_tool="true" weight="0.39275765" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.1663143" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980973" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;mybatis&quot;&#10;&#10;This reverts commit 9b3e2959" />
+    <MESSAGE value="mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_12_mybatis_lazyLoad/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_12_mybatis_lazyLoad/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/java/cn/yb13/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/cn/yb13/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/test/java/cn/yb13/test/SecondLevelCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/MybatisAnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/test/java/cn/yb14/test/AnnotationCRUDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="35" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/MybatisAnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/test/java/cn/yb15/test/AnnotationCRUDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/java/cn/yb15/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/07. 微服务架构阶段【北京尚学堂·百战程序员】/1. spring boot/04. SpringBoot整合持久层技术/源码/03SpringBoot整合MyBatis完成用户查询/03SpringBoot整合MyBatis完成用户查询/代码/12-spring-boot-springmvc-mybatis/src/main/java/com/bjsxt/App.java" />
+    <entry file="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_14_mybatis_annotation/src/main/java/cn/yb14/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_01_mybatis/src/main/resources/cn/yb01/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03_mybatis_dao/src/main/resources/cn/yb03/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05_mybatis_CRUD/src/main/resources/cn/yb05/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06_mybatis_dao/src/main/resources/cn/yb06/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06_mybatis_dao/src/main/java/cn/yb06/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06_mybatis_dao/src/main/java/cn/yb06/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06_mybatis_dao/src/test/java/cn/yb06/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08_mybatis_dynamicSQL/src/test/java/cn/yb08/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08_mybatis_dynamicSQL/src/main/resources/cn/yb08/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05_mybatis_CRUD/src/main/java/cn/yb05/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05_mybatis_CRUD/src/main/java/cn/yb05/domain/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_11_mybatis_JNDI/src/main/resources/cn/yb11/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04_mybatis_design/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_01_mybatis/src/main/resources/aaa.xml" />
+    <entry file="file://$PROJECT_DIR$/_13_mybatis_cache/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_02_mybatis_annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/dao/IAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/AccountUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/java/cn/yb09/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/resources/cn/yb09/dao/IAccountDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_09_mybatis_one2many/src/main/resources/cn/yb09/dao/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>_12_mybatis_lazyLoad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

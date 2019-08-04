@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_11_mybatis_JNDI:war">
+    <output-path>$PROJECT_DIR$/_11_mybatis_JNDI/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>_11_mybatis_JNDI</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="11_mybatis_JNDI.war">
+      <element id="artifact" artifact-name="_11_mybatis_JNDI:war exploded" />
+    </root>
+  </artifact>
+</component>

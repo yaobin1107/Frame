@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_10_mybatis_many2many" />
+        <module name="_08_mybatis_dynamicSQL" />
+        <module name="_07_mybatis_datasourceAndTx" />
+        <module name="_02_mybatis_annotation" />
+        <module name="_09_mybatis_one2many" />
+        <module name="_04_mybatis_design" />
+        <module name="_06_mybatis_dao" />
+        <module name="_14_mybatis_annotation" />
+        <module name="_03_mybatis_dao" />
+        <module name="_12_mybatis_lazyLoad" />
+        <module name="_01_mybatis" />
+        <module name="_15_mybatis_annoOne2Many" />
+        <module name="_05_mybatis_CRUD" />
+        <module name="_13_mybatis_cache" />
+        <module name="_11_mybatis_JNDI" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01_mybatis" target="1.5" />
+      <module name="_01_mybatis" target="1.5" />
+      <module name="_02_mybatis_annotation" target="1.5" />
+      <module name="_03_mybatis_dao" target="1.5" />
+      <module name="_04_mybatis_design" target="6" />
+      <module name="_05_mybatis_CRUD" target="1.5" />
+      <module name="_06_mybatis_dao" target="6" />
+      <module name="_07_mybatis_datasourceAndTx" target="1.5" />
+      <module name="_08_mybatis_dynamicSQL" target="1.5" />
+      <module name="_09_mybatis_one2many" target="1.5" />
+      <module name="_10_mybatis_many2many" target="1.5" />
+      <module name="_11_mybatis_JNDI" target="1.7" />
+      <module name="_12_mybatis_lazyLoad" target="1.5" />
+      <module name="_13_mybatis_cache" target="1.5" />
+      <module name="_14_mybatis_annotation" target="1.5" />
+      <module name="_15_mybatis_annoOne2Many" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

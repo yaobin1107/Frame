@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_01_mybatis/_01_mybatis.iml" filepath="$PROJECT_DIR$/_01_mybatis/_01_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_mybatis_annotation/_02_mybatis_annotation.iml" filepath="$PROJECT_DIR$/_02_mybatis_annotation/_02_mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_mybatis_dao/_03_mybatis_dao.iml" filepath="$PROJECT_DIR$/_03_mybatis_dao/_03_mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_mybatis_design/_04_mybatis_design.iml" filepath="$PROJECT_DIR$/_04_mybatis_design/_04_mybatis_design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_mybatis_CRUD/_05_mybatis_CRUD.iml" filepath="$PROJECT_DIR$/_05_mybatis_CRUD/_05_mybatis_CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_mybatis_dao/_06_mybatis_dao.iml" filepath="$PROJECT_DIR$/_06_mybatis_dao/_06_mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07_mybatis_datasourceAndTx/_07_mybatis_datasourceAndTx.iml" filepath="$PROJECT_DIR$/_07_mybatis_datasourceAndTx/_07_mybatis_datasourceAndTx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_mybatis_dynamicSQL/_08_mybatis_dynamicSQL.iml" filepath="$PROJECT_DIR$/_08_mybatis_dynamicSQL/_08_mybatis_dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09_mybatis_one2many/_09_mybatis_one2many.iml" filepath="$PROJECT_DIR$/_09_mybatis_one2many/_09_mybatis_one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10_mybatis_many2many/_10_mybatis_many2many.iml" filepath="$PROJECT_DIR$/_10_mybatis_many2many/_10_mybatis_many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_11_mybatis_JNDI/_11_mybatis_JNDI.iml" filepath="$PROJECT_DIR$/_11_mybatis_JNDI/_11_mybatis_JNDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12_mybatis_lazyLoad/_12_mybatis_lazyLoad.iml" filepath="$PROJECT_DIR$/_12_mybatis_lazyLoad/_12_mybatis_lazyLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13_mybatis_cache/_13_mybatis_cache.iml" filepath="$PROJECT_DIR$/_13_mybatis_cache/_13_mybatis_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14_mybatis_annotation/_14_mybatis_annotation.iml" filepath="$PROJECT_DIR$/_14_mybatis_annotation/_14_mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15_mybatis_annoOne2Many/_15_mybatis_annoOne2Many.iml" filepath="$PROJECT_DIR$/_15_mybatis_annoOne2Many/_15_mybatis_annoOne2Many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/idea_mybatis.iml" filepath="$PROJECT_DIR$/.idea/idea_mybatis.iml" />
+    </modules>
+  </component>
+</project>
